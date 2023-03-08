@@ -14,7 +14,7 @@ const Wrapper = styled.div`
 const Input = styled.input`
   padding: 0.5em;
   margin: 0.5em;
-  background-color: inherit;
+  background-color: rgb(255, 255, 255, 0.3);
   border: 2px white;
   border-bottom: 2px solid #333;
   width: 300px;
@@ -55,7 +55,7 @@ function AddTask() {
             <Input
             name="addtask"
             type="text"
-            placeholder={"add new task ..."}
+            placeholder={"add new task"}
             value={newTask}
             onChange={handleChange}
             />
